@@ -2,6 +2,14 @@ body {
     font-size:15px;
 }
 
+div.container div.row {
+  margin-top: 30px;
+}
+
+footer div.container div.row {
+  margin-top: 0px;
+}
+
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
@@ -143,7 +151,8 @@ table > tfoot > tr > td {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
-    border-top: 1px solid #ddd;
+    /*border-top: 1px solid #ddd;*/
+    border: 1px solid #ddd;
 }
 table > thead > tr > th {
     vertical-align: bottom;
@@ -310,6 +319,109 @@ li.dropdownActive a {
 
 footer {
     font-size: smaller;
+    font-family : Roboto, sans-serif;
+    background-image: url("../images/bg_footer.png");
+    color: #fff;
+    background-position: top center;
+    background-size: cover;
+    height: 330px;
+}
+footer > .container > .row > .col-md-3 a {
+  color         : #55D6F8;
+  display       : block;
+  padding-bottom: 24px;
+  transition: all 0.3s ease;
+}
+
+footer > .container > .row > .col-md-3 a:hover {
+  text-decoration : none;
+  color           : #fff !important;
+}
+
+#footer-col-3 .txt {
+  line-height: 14px;
+  padding-left: 22px;
+}
+
+#footer-col-3 div {
+  display: inline-block;
+}
+
+#footer-col-2 h5,
+#footer-col-3 h5 {
+  color         : #fff;
+  padding-top   : 40px;
+  padding-bottom: 16px;
+  font-size     : 20px;
+  font-weight   : 400;
+  font-family   : 'Roboto Slab', Times, serif !important;
+}
+
+#footer-col-3 a:hover .ggt-icon-border {
+  background: #fff;
+  opacity   : 0.8;
+}
+
+#footer-col-3 .ggt-icon-border {
+  transition: all 0.15s ease;
+}
+
+#footer-col-3 .ggt-icon-border {
+  background    : #55D6F8;
+  border-radius : 5px;
+  height        : 39px;
+  width         : 39px;
+}
+
+#footer-col-3 .ggt-icon-border i {
+  color             : #122b4d;
+  font-size         : 28px;
+  position          : relative;
+  top               : 50%;
+  -webkit-transform : translateY(-50%);
+  -ms-transform     : translateY(-50%);
+  transform         : translateY(-50%);
+}
+
+#footer-col-4 {
+  background-image    : url("../images/logo-ioos-white.png");
+  background-position : 0 50px;
+  background-repeat   : no-repeat;
+  background-size     : 72px;
+  color               : #fff;
+  line-height         : 16px;
+  padding-left        : 120px;
+}
+
+#footer-col-4 a.btn {
+  border        : 1px solid #55D6F8;
+  border-radius : 0 !important;
+  padding       : 8px 23px !important;
+}
+
+#footer-col-4 a.btn:hover {
+  border-color: #fff;
+}
+
+#footer-col-4 > div {
+  padding-top: 50px;
+}
+
+
+footer div.row {
+  margin: 0px 200px;
+}
+
+footer > .container > .row > .col-md-3 a:after {
+  display: none;
+}
+
+.mdi-facebook:before {
+    content: "\F20C";
+}
+
+.mdi-twitter:before {
+    content: "\F544";
 }
 
 /* FAQ page */
@@ -337,6 +449,7 @@ a.accordion-toggle, a.accordion-collapsed {
     /* padding: 4px;*/
     padding:0px;
     margin: 0px;
+    /*float: right;*/
 }
 
 .nav > li {

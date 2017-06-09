@@ -21,6 +21,16 @@ $( document ).ready(function() {
      */
     anchors.add('h2,h3,h4,h5');
 
+
+    // Shorten the navbar after scrolling a little bit down
+    $(window).scroll(function() {
+        if ($(".navbar").offset().top > 50) {
+            $(".navbar").addClass("top-nav-short");
+        } else {
+            $(".navbar").removeClass("top-nav-short");
+        }
+    });
+
 });
 
 // needed for nav tabs on pages. See Formatting > Nav tabs for more details.
