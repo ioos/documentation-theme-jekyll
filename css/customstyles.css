@@ -2,13 +2,35 @@ body {
     font-size:15px;
 }
 
-div.container div.row {
+
+body div.container div.row {
   margin-top: 30px;
 }
+
+@media (min-width: 768px) {
+  body div.container div.row {
+    margin-top: 110px;
+  }
+}
+
+@media (min-width: 990px) {
+  body div.container div.row {
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body div.container div.row {
+    margin-top: 30px;
+  }
+}
+
+
 
 footer div.container div.row {
   margin-top: 0px;
 }
+
 
 .bs-callout {
     padding: 20px;
@@ -322,9 +344,10 @@ footer {
     font-family : Roboto, sans-serif;
     background-image: url("../images/bg_footer.png");
     color: #fff;
+    background-color: #011a49;
     background-position: top center;
     background-size: cover;
-    height: 330px;
+    /*height: 330px;*/
 }
 footer > .container > .row > .col-md-3 a {
   color         : #55D6F8;
@@ -390,7 +413,7 @@ footer > .container > .row > .col-md-3 a:hover {
   background-size     : 72px;
   color               : #fff;
   line-height         : 16px;
-  padding-left        : 120px;
+  padding-left        : 90px;
 }
 
 #footer-col-4 a.btn {
@@ -407,9 +430,16 @@ footer > .container > .row > .col-md-3 a:hover {
   padding-top: 50px;
 }
 
+@media (min-width: 990px) {
+  footer div.row {
+    margin: 0px 100px;
+  }
+}
 
-footer div.row {
-  margin: 0px 200px;
+@media (max-width: 990px) {
+  footer div.row {
+    margin: 0px 10px;
+  }
 }
 
 footer > .container > .row > .col-md-3 a:after {
@@ -417,11 +447,11 @@ footer > .container > .row > .col-md-3 a:after {
 }
 
 .mdi-facebook:before {
-    content: "\F20C";
+    content: "\f20c";
 }
 
 .mdi-twitter:before {
-    content: "\F544";
+    content: "\f544";
 }
 
 /* FAQ page */

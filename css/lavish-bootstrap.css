@@ -1084,7 +1084,7 @@ pre code {
     margin-left: 16.666666666666664%;
   }
   .col-md-offset-3 {
-    margin-left: 25%;
+    margin-left: 15%;
   }
   .col-md-offset-4 {
     margin-left: 33.33333333333333%;
@@ -3508,7 +3508,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 50px;
+  height: 40px;
 }
 
 .navbar-inverse.top-nav-short .avatar-container{
