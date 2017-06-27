@@ -10,6 +10,9 @@ site_title: IOOS <Repository Name> Documentation
 company_name: US IOOS
 # this appears in the footer
 
+# google_analytics: UA-00000000-0
+# if you have google-analytics ID, put it in. if not, edit this value to blank.
+
 host: 127.0.0.1
 # the preview server used. Leave as is.
 
@@ -84,6 +87,7 @@ defaults:
       comments: true
       search: true
       sidebar: home_sidebar
+      topnav: topnav
   -
     scope:
       path: ""
@@ -93,6 +97,7 @@ defaults:
       comments: true
       search: true
       sidebar: home_sidebar
+      topnav: topnav
   -
     scope:
       path: ""
@@ -112,6 +117,7 @@ defaults:
       comments: true
       search: true
       sidebar: home_sidebar
+      topnav: topnav
 
 # these are defaults used for the frontmatter for these file types
 
