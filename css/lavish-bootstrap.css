@@ -3469,16 +3469,16 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-top-left-radius: 0;
 }
 
-
-
 @media only screen and (min-width: 768px) {
   .navbar-inverse {
-    padding: 0px 0px 20px 0px;
+    padding: 0px 0px 8px 0px;
+    /*padding: 0px 0px 20px 0px;*/
     /*padding: 10px 0px;*/
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
   }
+
 
   .navbar-inverse.top-nav-short {
     padding: 0;
@@ -3716,9 +3716,12 @@ div.container {
 }
 .navbar-brand {
   float: left;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
+/*  padding: 15px 15px; */
+  padding: 16px 10px 10px 15px;
+/*  font-size: 18px; */
+  font-size: 16px;
+/*  line-height: 20px; */
+  line-height: 18px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
