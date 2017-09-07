@@ -799,7 +799,7 @@ hr {
     background: #999;
     margin: 30px 0px;
     width: 90%;
-    margin-left: auto;
+    margin-left: 0px;
     margin-right: auto;
 }
 
