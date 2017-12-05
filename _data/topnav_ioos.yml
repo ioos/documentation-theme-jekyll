@@ -22,7 +22,6 @@ topnav_dropdowns:
           external_url: https://ioos.noaa.gov/data/contribute-data/
 #        - title: IOOS Biological Data Services
 #          external_url: https://ioos.github.io/biological-data-services/
-#
 #        - title: IOOS Biological Data Services
 #          external_url: https://ioos.github.io/BioData-Training-Workshop/
         - title: IOOS CF-netCDF Guidelines
