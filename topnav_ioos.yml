@@ -16,9 +16,8 @@ topnav_dropdowns:
           external_url: https://ioos.github.io/
         - title: <b>IOOS Repositories on GitHub</b>
           external_url: https://github.com/ioos
-        - title: bla-bla-bla
-          external_url: http://google.com
-        - 
+        - "------------------------------------------"
+        - "------------------------------------------"
         - title: DMAC Implementation Guidelines for Data Providers
           external_url: https://ioos.noaa.gov/data/contribute-data/
 #        - title: IOOS Biological Data Services
