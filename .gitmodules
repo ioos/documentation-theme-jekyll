@@ -2,3 +2,7 @@
 	path = documentation-theme-jekyll
 	url = https://github.com/ioos/documentation-theme-jekyll.git
 	branch = master
+[submodule "_data/navbars_theme"]
+	path = _data/navbars_theme
+	url = https://github.com/ioos/documentation-theme-jekyll
+	branch = navbars
