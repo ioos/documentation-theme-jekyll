@@ -205,6 +205,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-data
   wdm (>= 0.1.0)
 
 BUNDLED WITH
