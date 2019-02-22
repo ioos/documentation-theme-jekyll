@@ -18,7 +18,7 @@ topnav_dropdowns:
           external_url: https://github.com/ioos
         - "------------------------------------------"
         - "------------------------------------------"
-        - title: Guidelines and Specifications
+        - title: "<b>Guidelines and Specifications:</b>"
         - title: DMAC Implementation Requirements for Data Providers
           external_url: https://ioos.noaa.gov/data/contribute-data/
         - title: IOOS Metadata Profile
@@ -37,13 +37,13 @@ topnav_dropdowns:
           external_url: https://ioos.github.io/passive-acoustics/
         - "------------------------------------------"
         - "------------------------------------------"
-        - title: Software, Tools, and Projects
+        - title: "<b>Software, Tools, and Projects:</b>"
         - title: IOOS Compliance Checker
           external_url: https://compliance.ioos.us/
         - title: IOOS Data Demo Center
           external_url: https://ioos.github.io/notebooks_demos/
         - title: IOOS Data Catalog Documentation
-          external_url: https://github.com/ioos/catalog
+          external_url: https://ioos.github.io/catalog
         - title: IOOS ncSOS
           external_url: https://github.com/asascience-open/ncSOS
         - title: IOOS i52N SOS
