@@ -1087,6 +1087,12 @@ a[href^="http://"]:after, a[href^="https://"]:after {
     padding-left: 3px;
 }
 
+/*Added MW 201902*/
+/* hide the ::after in the nav bar*/
+a.fa.fa-home.fa-lg.navbar-brand::after {
+  display:none
+}
+
 /* Strip the outbound icon when this class is present */
 a[href].noCrossRef::after,
 a.no_icon:after
