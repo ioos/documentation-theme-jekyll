@@ -15,7 +15,7 @@ topnav_dropdowns:
         - title: <b>IOOS Documentation Portal</b>
           url: https://ioos.github.io/
         - title: <b>IOOS Repositories on GitHub</b>
-          url: https://github.com/ioos
+          external_url: https://github.com/ioos
         - ------------------------------------------
         - ------------------------------------------
         - title: <b>Guidelines and Specifications:</b>
@@ -31,23 +31,23 @@ topnav_dropdowns:
           url: https://ioos.github.io/sos-guidelines/
         - title: IOOS Data Encoding in CSV/TSV
           url: https://ioos.github.io/ioos-csv-tsv/
-        - title: IOOS Controlled Vocabularies
-          url: https://github.com/ioos/vocabularies
         - title: Passive Acoustics Metadata
           url: https://ioos.github.io/passive-acoustics/
+        - title: IOOS Controlled Vocabularies
+          external_url: https://github.com/ioos/vocabularies
         - ------------------------------------------
         - ------------------------------------------
         - title: <b>Software, Tools, and Projects:</b>
         - title: IOOS Compliance Checker
-          url: https://compliance.ioos.us/
+          external_url: https://compliance.ioos.us/
         - title: IOOS Data Demo Center
-          url: https://ioos.github.io/notebooks_demos/
+          external_url: https://ioos.github.io/notebooks_demos/
         - title: IOOS Data Catalog Documentation
-          url: https://ioos.github.io/catalog
+          external_url: https://ioos.github.io/catalog
         - title: IOOS ncSOS
-          url: https://github.com/asascience-open/ncSOS
+          external_url: https://github.com/asascience-open/ncSOS
         - title: IOOS i52N SOS
-          url: https://ioos.github.io/i52n-sos/
+          external_url: https://ioos.github.io/i52n-sos/
 
 #        - title: IOOS Data Services for Animal Telemetry
 #          url: https://ioos.github.io/animal-telemetry/
