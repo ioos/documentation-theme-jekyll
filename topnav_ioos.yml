@@ -20,7 +20,7 @@ topnav_dropdowns:
         - ------------------------------------------
         - title: <b>Guidelines and Specifications:</b>
         - title: DMAC Implementation Requirements for Data Providers
-          url: https://ioos.noaa.gov/data/contribute-data/
+          external_url: https://ioos.noaa.gov/data/contribute-data/
         - title: IOOS Metadata Profile
           url: https://ioos.github.io/ioos-metadata/
         - title: IOOS National Glider DAC Wiki
@@ -44,6 +44,8 @@ topnav_dropdowns:
           external_url: https://ioos.github.io/notebooks_demos/
         - title: IOOS Data Catalog Documentation
           external_url: https://ioos.github.io/catalog
+        - title: MBON Portal
+          url: https://ioos.github.io/mbon-docs/
         - title: IOOS ncSOS
           external_url: https://github.com/asascience-open/ncSOS
         - title: IOOS i52N SOS
@@ -53,5 +55,5 @@ topnav_dropdowns:
 #          url: https://ioos.github.io/animal-telemetry/
 #        - title: IOOS Biological Data Services
 #          url: https://ioos.github.io/biological-data-services/
-#        - title: IOOS Biological Data Services
+#        - title: IOOS BioData Training Workshop
 #          url: https://ioos.github.io/BioData-Training-Workshop/
