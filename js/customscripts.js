@@ -1,3 +1,6 @@
+---
+layout: none
+---
 $('#mysidebar').height($(".nav").height());
 
 $( document ).ready(function() {
@@ -6,7 +9,11 @@ $( document ).ready(function() {
     // position as your scroll. if you have a lot of nav items, this height may not work for you.
     var h = $(window).height();
     //console.log (h);
-    if (h > 800) && ({{ site.baseurl }} in navbarFixedPositionExcludedRepos === false) {
+
+    // in addition to browser height, check that the repo is not in the custom list of IOOS documentation repos
+    //to exclude from fixing sidenav positiod.  Could use .includes but it isn't IE-compatible:
+    //if ( (h > 800) && (!(navbarFixedPositionExcludedRepos.includes("{{ site.repository }}"))) ) {
+    if ( (h > 800) && (!(navbarFixedPositionExcludedRepos.indexOf("{{ site.repository }}") > -1)) ) {
         $( "#mysidebar" ).attr("class", "nav affix");
     }
     // activate tooltips. although this is a bootstrap js function, it must be activated this way in your theme.
