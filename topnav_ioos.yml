@@ -27,6 +27,8 @@ topnav_dropdowns:
           url: https://ioos.github.io/ioosngdac/
         - title: IOOS Convention for Observing Asset Identification
           url: https://ioos.github.io/conventions-for-observing-asset-identifiers/
+        - title: NCEI Data Archiving Guidelines for IOOS
+          url: https://ioos.github.io/ncei-archiving-cookbook/
         - title: IOOS SOS Guidelines
           url: https://ioos.github.io/sos-guidelines/
         - title: IOOS Data Encoding in CSV/TSV
