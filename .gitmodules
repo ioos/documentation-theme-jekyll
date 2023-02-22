@@ -1,5 +1,5 @@
 [submodule "_data/navbars_theme"]
-	path = _data/navbars_theme
+	path = _data/navbars
 	url = https://github.com/ioos/documentation-theme-jekyll
 	branch = navbars
 [submodule "documentation-theme-jekyll"]
