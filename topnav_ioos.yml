@@ -44,8 +44,8 @@ topnav_dropdowns:
         - title: <b>Software, Tools, and Projects:</b>
         - title: IOOS Compliance Checker
           external_url: https://compliance.ioos.us/
-        - title: IOOS Data Demo Center
-          external_url: https://ioos.github.io/notebooks_demos/
+        - title: IOOS CodeLab
+          external_url: https://ioos.github.io/ioos_code_lab/
         - title: IOOS Data Catalog Documentation
           external_url: https://ioos.github.io/catalog
         - title: IOOS ncSOS
