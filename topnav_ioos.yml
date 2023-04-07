@@ -42,16 +42,12 @@ topnav_dropdowns:
 
      - title: Software & Documentation
        folderitems:
-        - -----------------------------------------
-        - -----------------------------------------
         - title: <b>IOOS Open Source Software</b>
-        - -----------------------------------------
         - title: IOOS GitHub Organization
           external_url: https://github.com/ioos
         - -----------------------------------------
         - -----------------------------------------
         - title: <b>Software Documentation</b>
-        - -----------------------------------------
         - title: ERDDAP Docker Quick Start
           url: https://ioos.github.io/erddap-gold-standard/
         - title: erddapy
@@ -65,10 +61,7 @@ topnav_dropdowns:
         
      - title: Data Use & Community
        folderitems: 
-        - -----------------------------------------
-        - -----------------------------------------
         - title: <b>IOOS Data Use & Resources</b>
-        - -----------------------------------------
         - title: IOOS CodeLab
           external_url: https://ioos.github.io/ioos_code_lab/
         - title: Compliance Checker Web 
@@ -76,7 +69,6 @@ topnav_dropdowns:
         - -----------------------------------------
         - -----------------------------------------
         - title: <b>Community Resources/Events</b>
-        - -----------------------------------------
         - title: IOOS Code Sprint
           external_url: https://ioos.github.io/ioos-code-sprint/
         - title: Marine Bio Data Workshop
@@ -84,7 +76,6 @@ topnav_dropdowns:
         - -----------------------------------------
         - -----------------------------------------
         - title: <b>Community Events Archive</b>
-        - -----------------------------------------
         - title: 2018 IOOS Bio Data Workshop
           url: https://ioos.github.io/BioData-Training-Workshop/
         - title: 2019 IOOS Code Sprint
