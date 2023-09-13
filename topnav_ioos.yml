@@ -54,8 +54,10 @@ topnav_dropdowns:
           external_url: https://ioos.github.io/erddapy/
         - title: ioos_qc
           external_url: https://ioos.github.io/ioos_qc/
+        - title: Cloud Sandbox
+          external_url: https://www-sandbox.ioos.us/
         - title: Compliance Checker
-          external_url: https://github.com/ioos/compliance-checker/blob/master/README.md
+          external_url: https://ioos.github.io/compliance-checker/
         - title: gliderpy
           external_url: https://ioos.github.io/gliderpy/
         
