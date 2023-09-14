@@ -27,11 +27,11 @@ topnav_dropdowns:
           url: https://ioos.github.io/
         - title: IOOS Metadata Profile
           url: https://ioos.github.io/ioos-metadata/
-        - title: IOOS Glider DAC Data Format & Guidelines
+        - title: IOOS Glider Specification
           url: https://ioos.github.io/glider-dac/
         - title: IOOS ATN Specification
           url: https://ioos.github.io/ioos-atn-data/
-        - title: MBON Data and File Formatting
+        - title: MBON Data Specification
           url: https://ioos.github.io/mbon-docs/
         - title: NCEI Data Archiving Guidelines for IOOS
           url: https://ioos.github.io/ncei-archiving-cookbook/
