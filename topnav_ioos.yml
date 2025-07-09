@@ -31,8 +31,8 @@ topnav_dropdowns:
           url: https://ioos.github.io/glider-dac/
         - title: IOOS ATN Specification
           url: https://ioos.github.io/ioos-atn-data/
-        - title: MBON Data Specification
-          url: https://ioos.github.io/mbon-docs/
+        - title: Marine Life Data Network
+          url: https://ioos.github.io/marine_life_data_network/
         - title: NCEI Data Archiving Guidelines for IOOS
           url: https://ioos.github.io/ncei-archiving-cookbook/
         - title: IOOS Convention for Asset Identification
